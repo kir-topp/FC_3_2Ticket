@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".OrderActivity">
+
+    <TextView
+        android:id="@+id/userIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User ID" />
+
+    <TextView
+        android:id="@+id/userIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userIdLabel"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/userIdLabel"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/departureLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userIdTextView"
+        android:text="Departure" />
+
+    <TextView
+        android:id="@+id/departureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/departureLabel"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/departureLabel"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/arrivalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/departureTextView"
+        android:text="Arrival" />
+
+    <TextView
+        android:id="@+id/arrivalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrivalLabel"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/arrivalLabel"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/costLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrivalTextView"
+        android:text="Cost" />
+
+    <TextView
+        android:id="@+id/costTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/costLabel"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/costLabel"
+        android:text="" />
+
+    <Button
+        android:id="@+id/newOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/costTextView"
+        android:layout_marginTop="16dp"
+        android:text="New Order" />
+
+</RelativeLayout>
+
